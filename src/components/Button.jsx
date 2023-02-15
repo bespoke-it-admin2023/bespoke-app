@@ -1,11 +1,11 @@
 import React from 'react'
 
 
-const Button = ({props}) => {
+const Button = ({props, redirect}) => {
   return (
-    <div className="pl-6">
-        <a href="#">
-            <button className="bg-primary text-white rounded-full m-2 px-8 py-4">
+    <div className="text-[25px] pb-5">
+        <a href={ redirect }>
+            <button className={`bg-brandBlack hover:bg-brandBlue rounded-full min-h-[68px] px-10`}>
                 {props}
             </button>
         </a>

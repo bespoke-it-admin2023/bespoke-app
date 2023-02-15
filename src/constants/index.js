@@ -29,3 +29,50 @@ export const navLinks = [
       title: "RESOURCES",
     },
   ];
+
+
+export const quickLinks = [
+  {
+    id: "aboutus",
+    title: "About Us",
+  },
+  {
+    id: "services",
+    title: "Services",
+  },
+  {
+    id: "howitworks",
+    title: "How it Works",
+  },
+  {
+    id: "jobs",
+    title: "Jobs",
+  },
+  {
+    id: "testimonials",
+    title: "Testimonials",
+  },
+  {
+    id: "resources",
+    title: "Resources",
+  },
+  {
+    id: "contactus",
+    title: "Contact Us",
+  },
+]
+
+export const siteTools = [
+  {
+    id: "termsandconditions",
+    title: "Terms and Conditions",
+  },
+  {
+    id: "privacypolicy",
+    title: "Privacy Policy",
+  },
+  {
+    id: "sitemap",
+    title: "Site Map",
+  },
+]

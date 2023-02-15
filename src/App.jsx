@@ -11,9 +11,7 @@ function App() {
   return (
     <div className="bg-white">
       <div className={`${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
           <Navbar />
-        </div>
       </div>
 
       <div className={`${styles.flexStart}`}>
