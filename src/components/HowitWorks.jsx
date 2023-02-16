@@ -7,7 +7,7 @@ import four from '../assets/4.png'
 
 const HowitWorks = () => {
   return (
-    <div>
+    <div id="howitworks">
         <div className="relative flex flex-col justify center px-10">
             <img src={ howitworks } alt="howitworks" className="w-3/4 justify-center self-center" />
             <div class="absolute top-1/4 left-1/4 transform -translate-x-1/4  text-brandBlack text-3xl p-5 ">

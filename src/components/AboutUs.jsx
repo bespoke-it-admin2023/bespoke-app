@@ -16,7 +16,7 @@ import DynamicCard from './DynamicCard'
 
 const AboutUs = () => {
   return (
-    <section id="howitworks">
+    <section id="aboutus">
         <div className="w-full h-full flex flex-row bg-gradient-to-b from-indigo-300 to-cyan-200 justify-evenly">
             <div className="flex flex-col pt-12 pl-5 max-w-[900px] w-900px pb-5">
                 <span className="w-[3/4] h-full text-[25px] pb-4">
