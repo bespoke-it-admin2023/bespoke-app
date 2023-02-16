@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import styles from './style'
 import Footer from './components/Footer'
 import AboutUs from './components/AboutUs'
+import HowitWorks from './components/HowitWorks'
 import OurServices from './components/OurServices'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <div>
         <AboutUs />
         <OurServices />
+        <HowitWorks />
       </div>
       <WhatsAppFloatingButton />
       <Footer />
