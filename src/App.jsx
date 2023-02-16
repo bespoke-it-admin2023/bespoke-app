@@ -20,9 +20,9 @@ function App() {
         <Hero />
       </div>
       <div>
-        <AboutUs />
         <OurServices />
         <HowitWorks />
+        <AboutUs />
       </div>
       <WhatsAppFloatingButton />
       <Footer />
