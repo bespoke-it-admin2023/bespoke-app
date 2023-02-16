@@ -4,7 +4,7 @@ import WhatsAppFloatingButton from './components/WhatsAppFloatingButton'
 import Hero from './components/Hero'
 import styles from './style'
 import Footer from './components/Footer'
-import HowitWorks from './components/HowitWorks'
+import AboutUs from './components/AboutUs'
 import OurServices from './components/OurServices'
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Hero />
       </div>
       <div>
-        <HowitWorks />
+        <AboutUs />
         <OurServices />
       </div>
       <WhatsAppFloatingButton />
