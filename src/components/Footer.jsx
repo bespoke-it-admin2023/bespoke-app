@@ -5,6 +5,7 @@ import linkedin_logo from '../assets/linkedin_logo.png'
 import { quickLinks } from '../constants'
 import { siteTools } from '../constants'
 
+
 const Footer = () =>  {
     const handleFBClick = () => {
         window.open("www.facebook.com/MyBespokeStaff", "_blank")
@@ -77,7 +78,6 @@ const Footer = () =>  {
                     >
                         <a href={tools.id}>
                             {tools.title}
-
                         </a>
                     </li>
                     )}

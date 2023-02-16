@@ -3,6 +3,7 @@ import logo from '../assets/logo.png'
 import { navLinks } from '../constants'
 import ContactUs from '../components/ContactUs'
 
+
 const Navbar = () => {
 
   return (
@@ -18,7 +19,7 @@ const Navbar = () => {
                     key={nav.id}
                     className={`font-poppins font-bold cursor-pointer justify-between place-items-start text-[20px] md:text-[15px] lg:text-[18px] text-black ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
                 >
-                    <a href={`/${nav.id}`}>
+                    <a href={`#${nav.id}`} className="hover:text-brandBlue">
                         {nav.title}
                     </a>
                 </li>

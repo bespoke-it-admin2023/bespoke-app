@@ -4,7 +4,8 @@ import WhatsAppFloatingButton from './components/WhatsAppFloatingButton'
 import Hero from './components/Hero'
 import styles from './style'
 import Footer from './components/Footer'
-
+import HowitWorks from './components/HowitWorks'
+import OurServices from './components/OurServices'
 
 function App() {
 
@@ -17,8 +18,12 @@ function App() {
       <div className={`${styles.flexStart}`}>
         <Hero />
       </div>
-      <Footer/>
+      <div>
+        <HowitWorks />
+        <OurServices />
+      </div>
       <WhatsAppFloatingButton />
+      <Footer />
     </div>
   )
 }
