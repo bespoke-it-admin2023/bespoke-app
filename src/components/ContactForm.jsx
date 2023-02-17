@@ -12,7 +12,7 @@ const ContactForm = () => {
   }
   return (
     <div className="flex flex-row justify-center pt-[5%] pb-[30px]">
-        <div className="flex flex-col bg-slate-900 rounded-[15px] pt-[3%] h-auto w-[25%] pl-8 py-6">
+        <div className="flex flex-col bg-slate-900 shadow-2xl rounded-[15px] pt-[3%] h-auto w-[25%] pl-8 py-6">
             <h1 className="text-white font-poppins font-semibold text-[35px]">CONTACT <br/>INFORMATION</h1>
             <span className="text-white">You can reach us at:</span>
             <div className="flex flex-row justify-start pt-8">
@@ -48,7 +48,7 @@ const ContactForm = () => {
                     sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
                     onChange={submitForm}
                     className="py-4"
-                    
+
                 />
                 <div className="flex flex-row pt-4">
                     <UnStyledButton buttonStyle="bg-brandBlue text-white text-[75%] px-[4rem] py-[1rem] rounded-[20px] font-poppins font-semibold" text="Submit" onClick={submitForm}/>
