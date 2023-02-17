@@ -4,6 +4,7 @@ import one from '../assets/1.png'
 import two from '../assets/2.png'
 import three from '../assets/3.png'
 import four from '../assets/4.png'
+import UnStyledButton from './UnStyledButton'
 
 const HowitWorks = () => {
   return (
@@ -21,6 +22,19 @@ const HowitWorks = () => {
             <img src={two} alt="two" className="w-[20%] h-[20%]"/>
             <img src={three} alt="three" className="w-[20%] h-[20%]"/>
             <img src={four} alt="four" className="w-[20%] h-[20%]"/>
+        </div>
+        <div className="flex flex-col  overflow-hidden px-[400px] pb-4">
+          <div className="w-full h-full px-8 justify-center bg-gradient-to-t from-blue-300 to-blue-200">
+            <div className="flex flex-row justify-evenly items-center px-5 py-5">
+              <div>
+                <span className="text-brandBlack text-[35px]">Ready to form your very <br/> own team of</span>
+                <span className="text-brandBlue text-[35px]"> Bespoke <br/>Staff?</span>
+              </div>
+              <div>
+                <UnStyledButton buttonStyle="bg-brandBlue p-4 w-[3/4] h-[1/4] text-white rounded-full" text="Start Now"/>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
   )
