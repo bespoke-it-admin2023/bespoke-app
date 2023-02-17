@@ -20,7 +20,7 @@ const Hero = () => (
             </h1>
             <Button props="Read More"/>
           </div>
-          <img src={ mainherosection } alt="main" className='w-[800px] h-auto'/>
+          <img src={ mainherosection } alt="main" className='w-[50%] h-full'/>
         </div>
       </div>
       <div className='pr-[50px] pl-[50px]'>
