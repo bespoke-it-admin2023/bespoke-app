@@ -4,9 +4,10 @@ import WhatsAppFloatingButton from './components/WhatsAppFloatingButton'
 import Hero from './components/Hero'
 import styles from './style'
 import Footer from './components/Footer'
-import AboutUs from './components/AboutUs'
+import Testimonials from './components/Testimonials'
 import HowitWorks from './components/HowitWorks'
 import OurServices from './components/OurServices'
+import AboutUs from './components/AboutUs'
 
 function App() {
 
@@ -15,13 +16,13 @@ function App() {
       <div className={`${styles.flexCenter}`}>
           <Navbar />
       </div>
-
       <div className={`${styles.flexStart}`}>
         <Hero />
       </div>
       <div>
         <OurServices />
         <HowitWorks />
+        <Testimonials />
         <AboutUs />
       </div>
       <WhatsAppFloatingButton />
