@@ -15,12 +15,12 @@ const OurServices = () => {
                 <span className="text-brandBlack text-[25px] 
                 font-poppins font-semibold p-4">Freight Forwarders</span>
             </div>
-            <div className="flex justify-center px-[300px] pb-4">
+            <div className="flex justify-center px-[15%] pb-4">
                 <p>One of the main elements of how & why Freight Forwarding companies use BPO services lies in what BPO companies offer their clients. Listed below are some of the business processes that Bespoke can help you manage:</p>
             </div>
             <div className="flex flex-row">
                
-                <div className="flex flex-col pl-[300px]">
+                <div className="flex flex-col pl-[15%]">
                     
                     <h1 className="text-[30px] text-brandBlue font-semibold pb-6">Data Entry</h1>
                     <p className="text-justify text-[20px] pb-6 leading-">Data entry is one of the key features of how & why freight forwarders use BPO services. Because these companies heavily rely on accurate records, data entry cannot be overlooked. Be it entry into the companies EDI systems or invoices to contracts, a Bespoke will efficiently and effectively enter company data.</p>
@@ -29,11 +29,11 @@ const OurServices = () => {
                     <h1 className="text-[30px] text-brandBlue font-semibold pb-6">Freight Bill Processing</h1>
                     
                 </div>
-                <div className="flex flex-col justify-items-start pl-8 pr-[300px]">
+                <div className="flex flex-col justify-items-start pl-8 pr-[15%]">
                     <img src={ services } alt="services" className="w-[2000px] h-[530px]"/>
                 </div>
             </div>
-            <div className="px-[18%]">
+            <div className="px-[15%]">
                 <p className="text-justify text-[20px] pb-6 leading-relaxed">Freight bill processing refers to accounts payable services for transportation invoices. A BPO company can act as the first line of response between freight payment providers and your organization.</p>
                 <h1 className="text-[30px] text-brandBlue font-semibold pb-6">Accounting</h1>
                 <p className="text-justify text-[20px] pb-6 leading-relaxed">Like any other industry, accurate accounting is crucial. Part of how & why freight forwarding companies use Bepoke's services is the financial calculating that can be time consuming and tedious. Bespoke takes care of your accounting functions so that you do not have to waste any time that could be more valuable used in other areas.</p>

@@ -23,7 +23,7 @@ const HowitWorks = () => {
             <img src={three} alt="three" className="w-[20%] h-[20%]"/>
             <img src={four} alt="four" className="w-[20%] h-[20%]"/>
         </div>
-        <div className="flex flex-col  overflow-hidden px-[400px] pb-4">
+        <div className="flex flex-col  overflow-hidden px-[15%] pb-4">
           <div className="w-full h-full px-8 justify-center bg-gradient-to-t from-blue-300 to-blue-200">
             <div className="flex flex-row justify-evenly items-center px-5 py-5">
               <div>
@@ -31,7 +31,7 @@ const HowitWorks = () => {
                 <span className="text-brandBlue text-[35px]"> Bespoke <br/>Staff?</span>
               </div>
               <div>
-                <UnStyledButton buttonStyle="bg-brandBlue p-4 w-[3/4] h-[1/4] text-white rounded-full" text="Start Now"/>
+                <UnStyledButton buttonStyle="bg-brandBlue p-4 w-[100%] h-[1/4] text-white rounded-full" text="Start Now" redirect="contactus"/>
               </div>
             </div>
           </div>
