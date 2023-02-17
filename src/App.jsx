@@ -8,6 +8,8 @@ import Testimonials from './components/Testimonials'
 import HowitWorks from './components/HowitWorks'
 import OurServices from './components/OurServices'
 import AboutUs from './components/AboutUs'
+import ContactForm from './components/ContactForm'
+import Resources from './components/Resources'
 
 function App() {
 
@@ -24,6 +26,8 @@ function App() {
         <HowitWorks />
         <Testimonials />
         <AboutUs />
+        <ContactForm />
+        <Resources />
       </div>
       <WhatsAppFloatingButton />
       <Footer />

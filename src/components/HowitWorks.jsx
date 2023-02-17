@@ -11,7 +11,7 @@ const HowitWorks = () => {
     <div id="howitworks">
         <div className="relative flex flex-col justify center px-10">
             <img src={ howitworks } alt="howitworks" className="w-3/4 justify-center self-center" />
-            <div class="absolute top-1/4 left-1/4 transform -translate-x-1/4  text-brandBlack text-3xl p-5 ">
+            <div className="absolute top-1/4 left-1/4 transform -translate-x-1/4  text-brandBlack text-3xl p-5 ">
                 <h1>Outsource to the Philippines</h1>
                 <span className="text-blue-400">and create a dedicated team,</span>
                 <h1>without the worry about office space, IT,<br/> recruitment, payroll, and more.</h1>

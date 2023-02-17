@@ -4,7 +4,7 @@ import gradientbox from '../assets/gradient-box.png'
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col overflow-hidden justify-center">
+    <div id="aboutus" className="flex flex-col overflow-hidden justify-center">
         <div className="flex flex-col justify-center">
             <img src={ aboutus } alt="aboutus" className="w-auto h-auto"/>
             <div className="flex justify-center py-5">
